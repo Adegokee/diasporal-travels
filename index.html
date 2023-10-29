@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,700;0,900;1,300;1,900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Diaspora | Travels</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("LAJUvNUX5eYSCIaj6");
+   })();
+</script>
+</head>
+<body>
+
+    <!-- <div id="preloader">
+        
+    </div> -->
+          
+
+  
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
+    <a href="https://flowbite.com/" class="flex items-center">
+        <img src="./images/logo.png" class=" mr-3 md:h-[70px] h-[50px] object-cover" alt="Flowbite Logo" />
+        
+    </a>
+    <div class="flex md:order-2">
+        <a href="https://wa.me/+2347081009352">
+            <button type="button" class="px-4 py-2 mr-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Whatsapp Us <i class="bi ml-1 pt-[30px]  bi-arrow-right"></i></button>
+        </a>
+        <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+      <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#home" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+        </li>
+        <li>
+          <a href="#service" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+        </li>
+        <li>
+          <a href="#contact" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+  <div class="h-full">
+    <div id="default-carousel" class="relative w-full m-0" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden md:h-96">
+             <!-- Item 1 -->
+             <div class="hidden w-full duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/banner1.jpg " class="absolute block object-cover w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- It
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/newbanner.jpg" class="absolute block object-fill w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/Air_India_plane.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/log1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/bananer4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="./images/log2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+    
+</div>
+   
+<div id="home" class="w-full">
+    
+        
+    <div class="">
+    <div class="w-full text-center pt-[100px] div">
+        <h1 class="pb-6 text-[18px] md:text-5xl animate__heartBeat text-[rgb(32,25,76)]  ">Embark on your global adventure <br> with <span class="text-[rgb(115,101,203)]">confidence</span></h1>
+    
+        <p class="md:text-[22px] text-[16px] animate__animated animate__backInLeft">we specialize in simplifying visa acquisition facilitating school admissions <br> in italy, package logistic and streaming documentation for your dream <br> destination.</p>
+    </div>
+        <div class="flex justify-center w-full">
+            <div class="w-[150px] mr-6 ">
+                <!-- <img class="hidden w-full md:block " src="./images/desktop.png" alt=""> -->
+               <div class="block w-full md:hidden mt-6 ml-[30px] ">
+             <div class="">
+                <a href="https://wa.me/+2347081009352" class="  rounded-lg text-center md:ml[-200px] ml-[-50px]">
+    
+                    <button type="button" class="block px-4 py-2 mr-3 text-sm font-medium text-center text-white bg-purple-700 rounded-lg md:hidden hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Whatsapp<span><i class="bi ml-1 pt-[30px]  bi-arrow-right"></i></span></button>
+                   </a>
+             </div>
+               </div>
+            </div>
+            <div class="h-[50px] mt-[50px] md:ml-[-190px] ">
+                <a href="https://wa.me/+2347081009352" class="hidden rounded-lg md:block bg-[rgb(80,63,190)]"  >
+                    <button type="button" class="px-4 py-2 mr-3 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Whatsapp us <i class="bi ml-1 pt-[30px]  bi-arrow-right"></i></button>
+                  </a>
+            </div>
+        </div>
+        <div class="justify-center px-16 pt-8 w-ful md:flex md:justify-around">
+            <div class="md:w-[390px] w-[270px] pr-12">
+                <img class="w-full md:pl-12" src="./images/myimage1.png" alt="">
+            </div>
+            <div class="md:w-[390px]  w-[270px] md:pt-[100px] mt-[20px] mb-[20px] pr-12">
+                <img class="w-full " src="./images/myimage2.png" alt="">
+            </div>
+            <div class="md:w-[390px] w-[270px] pr-12" >
+                <img class="w-full" src="./images/myimage3.png" alt="">
+            </div>
+        </div>
+    
+      
+   
+        <div class="w-full md:flex md:justify-between pt-[50px] pb-12  md:relative md:pb-[200px] ">
+            <div class="hidden md:block absolute w-[25%] h-[700px] top-[150px]">
+                <img src="./images/Group.png" class="object-cover group " alt="">
+            </div>
+
+           <div class="    top-0 md:w-[70%] md:h-[300px]  absolute  ml-0 mx-auto pl-[200px]   mypic">
+            <img  src="./images/what.png"  class="md:w-[550px] hidden md:block absolute top-[120px]       animate__animated animate__bounce md:absolute  md:bottom-[10px] md:ml-[250px] " alt="">
+           </div>
+         <div class="w-full px-5">
+             <img src="./images/what.png" class="md:hidden" alt="">
+         </div>
+           
+        </div>
+   
+    
+    <div class="w-full myvis bg-[rgb(80,63,190)]  z-20 mt-[100px] pt-[160px] pb-[100px]">
+      
+       <div class="w-full md:flex md:justify-center md:item-center handle">
+    
+       
+        <div class="md:w-1/2 md:pl-[140px] handle2 document">
+            <h2 class="hidden docu animate__animated animate__bounceInDown text-white font-bold  md:block md:text-[50px] text-[20px] space-y-3 md:pl-[10px] pl-[80px]  md:pb-4">Documentation & visa  acquisition made easy</h2>
+            <h2 class="md:text-[40px] text-white block md:hidden text-[30px] md:pl-[10px]  text-center  md:pb-4">Documentation & visa  <br> acquisition made easy</h2>
+    
+            <p class="hidden md:block text-[18px] md:text-[18px] mt-11 md:pl-[10px] text-white md:pb-4 pl-[80px]">We simplify the visa acquisition process and handle all <br> documentation. No more comprehensive or uncertainties. Our <br> team ensures a streamlined journey to a successfull visa <br> acquisition, so you can focus on the adventure ahead..</p>
+    
+            <p class=" block md:hidden text-[12px] text-white md:text-[16px] md:pl-[10px] md:pb-4  text-center">We simplify the visa acquisition process and handle all <br> documentation. No more comprehensive or uncertainties. Our <br> team ensures a streamlined journey to a successfull visa <br> acquisition, so you can focus on the adventure ahead.</p>
+    
+         
+          <a href="https://wa.me/+2347081009352">
+            <button type="button" class="mr-3 text-sm font-medium text-center text-[rgb(80,63,190)]  bg-white rounded-lg ml-[-10px] md:ml-[5px] py-2 px-4 mt-10 md:py-2   md:px-4 hover:bg-[rgb(211,210,209)] focus:ring-4 focus:outline-none focus:ring-blue-300 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Whatsapp us <span><i class="bi ml-1 md:pt-[30px]  bi-arrow-right"></i></span></button>
+          </a>
+          
+        </div>
+    
+    
+        <div class="flex justify-center md:w-1/2 handle1">
+            <img class="md:w-[400px] w-[200px] pt-[50px] md:pt-0 " src="./images/myserviceimg.png" alt="">
+        </div>
+       </div>
+    
+    
+       
+    </div>
+    
+    <div class="w-full myvis bg-[rgb(12,107,233)] pt-[130px] pb-[90px]">
+        <div class="w-full md:flex md:justify-center item-center handle">
+    
+            <div class="flex justify-center md:w-1/2 handle1">
+                <img class="md:w-[400px] w-[200px] " src="./images/service.png" alt="">
+            </div>
+         <div class="md:w-1/2 pt-9 pl-8 md:pl-[140px] md:text-left  handle2 ">
+             <h2 class="hidden md:block md:text-[40px] text-[20px] animate__bounceInLeft text-white ">We Handle Package <br>Logistics</h2>
+             
+             <h2 class="md:hidden   text-[30px] text-center text-white  ">We Handle Package <br>Logistics</h2>
+     
+             <p class="hidden md:block md:text-[20px] text-[10px] text-white animate__animated animate__animated pt-4">Effortlessly send and recieve packages with our  <br> reliable delivery and receiving solutions. Let us handle <br> the logistic so you can ocus on what matters most.</p>
+             
+             <p class="md:hidden md:text-[20px] text-center text-white text-[12px] pt-4">Effortlessly send and recieve packages with our  <br> reliable delivery and receiving solutions. Let us handle <br> the logistic so you can ocus on what matters most.</p>
+     
+             <a href="https://wa.me/+2347081009352">
+                <button type="button" class="py-2 text-sm font-medium text-center text-[rgb(80,63,190)] bg-white rounded-lg -3 mt-10
+              ml-[-20px] md:ml-3  px-3 hover:bg-[rgb(211,210,209)] focus:ring-4 focus:outline-none focus:ring-blue-300 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Whatsapp us<span><i class="bi ml-1 pt-[30px]  bi-arrow-right"></i></span></button>
+             </a>
+         </div>
+     
+     
+         
+        </div>
+     
+     
+        
+     </div>
+     
+    
+    
+    
+     <div class="w-full md:p-[140px] mt-10 md:mt-10   bg-white  ">
+        
+     <div class="bg-[rgb(230,230,230)] md:p-[130px] rounded-xl">
+        <div class="w-full">
+            <div class="w-full ] " id="about">
+                <h2 class="md:text-[30px] text-[19px] md:p-2 pt-4 font-semibold  text-center animate__backInDown">We Facilitate school admission in Italy</h2>
+            <p class="text-center md:text-[22px] text-[14px]">Your Gateway to Italian Education, Let Us Help You Secure Your Place in Prestigious Schools Across Italy</p>
+            </div>
+            <div class="flex justify-center w-full pb-10" >
+                <a href="https://wa.me/+2347081009352">
+                    <button type="button" class="px-4 py-2 mt-10 mr-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">Whatsapp us<span><i class="bi md:ml-1 md:pt-[30px]  bi-arrow-right"></i></span></button>
+                </a>
+            </div>
+        </div>
+    
+    
+        <div>
+            <div>
+               
+            <p class="text-center md:text-[29px] text-[16px]">Discover the italian universities we help our clients get into.</p>
+            </div>
+            <div class="flex justify-center w-full p-6 item-center">
+         <div class="">
+            <form action="" >
+              
+                   
+                <div class="w-full bg-white rounded-lg md:p-2 ">
+               
+                    <span>   <input id="search-item" placeholder="Type the list alphabet of the university" type="text" class=" border-none outline-none placeholder:text-[rgb(230,230,230)] placeholder:md:text-[16px] placeholder:text-[10px]  md:w-[380px] bg-transparent" onkeyup="search()"></span>
+                       <!-- <ul class="absolute p-10 mt-2 text-black bg-white"  >
+                           <li class="w-[300px] hover:bg-gray-700 hover:text-white  border-2 border-black border-solid"><button>Nigeria</button></li>
+                           <li class="w-[300px] border-t-0 border-2 border-black border-solid"><button>Ghana</button></li>
+                           <li class="w-[300px] border-t-0  border-2 border-black border-solid"><button>Ghana</button></li>
+                           <li class="w-[300px] border-t-0  border-2 border-black border-solid"><button>Germany</button></li>
+                          
+                       </ul> -->
+          
+              <span>  <button type="submit"><i class=" bi md:p-[10px] p-[4px] mr-2 rounded-lg bi-arrow-right bg-[rgb(230,230,230)]"></i></button></span>
+            </div>
+            
+    </form> <br>
+  
+         </div>
+            </div>
+        </div>
+        
+     </div>
+    
+      
+           
+     </div>
+     
+    <!-- <video class="w-full h-[200px]" autoplay controls>
+        <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> -->
+      
+    
+    <div class="w-full pb-[20px] " >
+        <p class="animate__heartBeat text-center pb-10 md:text-[52px] text-[27px]">Our <span class="text-purple-400">customer</span> says it best</p>
+    
+        <div class="w-full neyo  md:flex md:justify-center md:px-[30px] md:p-[0px]  relative pb-[60px]">
+          <div class="w-full bg-[rgb(230,230,230)]  md:w-[470px]">
+            <main class="md:mr-[12px] md:h-[400px] md:w-[470px]  md:pl-[20px] md:px-auto rounded-lg ">
+                <img src="./images/comma.png" class="w-[40px] pt-5 pb-2  pl-[10px]" alt="">
+                <p class="md:text-[16px]  p-[5px] ">Neyo, thank you very much I don't expect this, I got my visa easily thank you very much I really appreciate, May God Almight continue his blessing upon you and work thank you so much I'm gratefull... I need to tell others about you.</p>
+                <p class=" text-[14px] click1 md:mt-[43px] mt-[25px] pb-[40px] md:pb[1px]  pl-[15px] text-blue-700" id="open1"><a href="">View Image</a></p>
+
+                <div id="simpleModal1" class="absolute top-3 modal1 ">
+                    <div class="modal-content w-100px h-[350px] bg-gray-900 p-4">
+                        <span id="close1" class="absolute top-0 right-0 px-3 py-2 text-white bg-gray-500 rounded-lg closeBtn " >&times;</span>
+                        <img class="w-full h-full mt-4" src="./images/whatapp1.png" alt="">
+                    </div>
+                </div>
+            </main>
+          </div>
+            <br>
+            <div class="w-full bg-[rgb(230,230,230)]  md:w-[470px]">
+                <main class="md:mr-[12px] md:pl-[20px]  md:h-[400px]  md:w-[470px] rounded-lg mb-40px relative">
+                    <img src="./images/comma.png" class="w-[40px] pt-5 pb-2  pl-[5px]" alt="">
+                    <p class="text-[16px]  p-[5px]">Good day sir, I'm really happy and gratefull for the effort you put towards my schooling aboard and now I'm so much at peace after all the nooks and cranes I went through just to achieve this dream thanks you so much sir, thank you!</p>
+        
+                    <p class="md:mt-[73px]  pl-[15px] click1 text-[14px]  pb-[10px] md:pb[1px] text-blue-700" id="open2"><a href="">View Image</a></p>
+    
+                    <div id="simpleModal2" class="absolute top-3 modal2 ">
+                        <div class="modal-content w-100px h-[350px] bg-gray-900 p-4">
+                            <span id="close2" class="absolute top-0 right-0 px-3 py-2 text-white bg-gray-500 rounded-lg closeBtn " >&times;</span>
+                            <img class="w-full h-full mt-4" src="./images/whatapp2.png" alt="">
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <br>
+         <div class="w-full md:w-[470px] bg-[rgb(230,230,230)]">
+               <main class="md:mr-[12px] md:pl-[20px] md:w-[470px] md:h-[400px] rounded-lg mt-10px">
+                <img src="./images/comma.png" class="w-[40px] pt-5 pb-2  pl-[10px]" alt="">
+                <p class="text-[16px]  pl-[ 5px] p">My package has been delivered <br>
+                    <br>
+                    Thank you. <br>
+                    <br>
+                    God bless.
+                
+                </p>
+                
+    
+                <p class="md:mt-[73px] mt-[25px]  pl-[15px] pb-[40px] md:pb[1px] text-[14px] click text-blue-700 " id="open3"><a href="">View Image</a></p>
+
+
+                <div id="simpleModal3" class="absolute top-3 modal3">
+                    <div class="modal-content w-100px h-[350px] bg-gray-900 p-4">
+                        <span id="close3" class="absolute top-0 right-0 px-3 py-2 text-red-900 bg-gray-500 rounded-lg closeBtn " >&times;</span>
+                        <img class="w-full h-full mt-4" src="./images/Whatapp3.png" alt="">
+                    </div>
+                </div>
+            </main>
+         </div>
+        </div>
+        
+    
+      
+      <!-- Main modal -->
+   
+      
+    </div>
+    
+<div class="md:px-[100px] md:pt-[100px] mywe hidden md:block">
+    <div class=" mycontact pt-[90px] px-[10px] md:px-[140px] md:justify-around md:flex" id="contact">
+        <div class="w-full md:w-1/2 we">
+            <p class="hidden text-3xl text-white para1 md:block pb-7 ">Unlock your <br>
+            <span class="">opportunities</span> Now</p>
+            <!-- <p class="hidden text-3xl text-white para12 md:block pb-7 ">Unlock your
+                <span class="">opportunities</span> Now</p> -->
+            <p class="block text-[20px]  text-white text-center md:hidden pb-7">Unlock your 
+            <span class="text-white">opportunities</span> Now</p>
+            
+            <p class="hidden text-[14px] para2 text-white md:block">Open the door to endless opportunities <br> by sending us a message without having <br> to leave our site</p>
+            <p class="block text-center text-[10px] text-white md:hidden">Open the door to endless opportunities by sending us a message without having to leave our site</p>
+    
+          <div class="hidden md:block">
+            <h1 class="text-[25px] pt-7 pb-7 text-white">Or</h1>
+            <p class="text-white mb-7"><i class=" bi bi-telephone"></i> +2347081009352</p>
+    
+            <p class="text-white"><i class="mr-1 bi bi-envelope "></i> Diasporatravel.consult@gmail.com</p>
+          </div>
+        </div>
+    
+    
+       <form action="" class="md:w-1/2 p-[20px] md:p-2">
+       
+        <div class="md:px-[50px]">
+            <div>
+                <label for="" class="text-white">Full name</label><br>
+                <main class="mb-4 rounded-lg message">
+                    <input id="name" type="text" placeholder="Enter your full name" class="border-none rounded-lg">
+                </main>
+                
+            </div>
+            <div>
+                <label for="" class="text-white">E-mail</label><br> 
+                <main class="mb-4 bg-white rounded-lg message">
+                    <input class="bg-white placeholder:text[rgb(230,230,230)] rounded-lg border-none"  id="email" type="email" placeholder="e.g toluamamba@gmail.com">
+                </main>
+                
+            </div>
+            <div>
+                <label for="" class="text-white mb-[25px]">Message</label><br>
+                <main class="bg-white rounded-lg message">
+                  <textarea placeholder="Write your message" name="" id="message" cols="30" rows="5" class=" placeholder:text-[rgb(230,230,230)] rounded-lg outline-none border-none"></textarea>
+                </main>
+               <div class="w-full md:justify-end md:flex md:pl-[50px]
+                pl-[50px]">
+                 <button onclick="sendMail()"  type="button" class="px-4 py-2 mt-10 mr-3 text-sm font-medium text-center bg-white rounded-lg text-blue-950 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md: dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">Send us a message<span><i class="bi md:ml-1 md:pt-[30px]  bi-arrow-right"></i></span></button>
+               </div>
+            </div>
+        </div>
+       </form>
+        <div class="block md:hidden">
+            <h1 class="text-[25px] text-center pt-7 pb-7 text-purple-400 animate__animated animate__backInUp">Or</h1>
+            
+             <p class="text-center mb-7 animate__animated animate__backInUp"><i class=" bi bi-telephone"></i> +2347081009352</p>
+                
+            <p class="text-center animate__animated animate__backInUp"><i class="mr-1 bi bi-envelope "></i> Diasporatravel.consult@gmail.com</p>
+         
+          </div>
+    </div>
+</div>   
+
+
+<div class="block md:hidden px-[10px] ">
+    <div class="liner">
+       <div>
+         <p class="block text-[20px] pt-[30px]  text-white text-center md:hidden pb-7">Unlock your 
+            <span class="text-white">opportunities</span> Now</p>
+       </div>
+       
+        
+      
+        <form action="" class="w-full" >
+       
+            <div class="">
+                <div>
+                    <label for="" class="text-white">Full name</label><br>
+                    <main class="mb-4 rounded-lg message">
+                        <input id="name" type="text" placeholder="Enter your full name" class="border-none rounded-lg">
+                    </main>
+                    
+                </div>
+                <div>
+                    <label for="" class="text-white">E-mail</label><br> 
+                    <main class="mb-4 bg-white rounded-lg message">
+                        <input class="bg-white placeholder:text[rgb(230,230,230)] rounded-lg border-none"  id="email" type="email" placeholder="e.g toluamamba@gmail.com">
+                    </main>
+                    
+                </div>
+                <div>
+                    <label for="" class="text-white mb-[25px]">Message</label><br>
+                    <main class="bg-white rounded-lg message">
+                      <textarea placeholder="Write your message" name="" id="message" cols="30" rows="5" class=" placeholder:text-[rgb(230,230,230)] rounded-lg outline-none border-none"></textarea>
+                    </main>
+                   <div class="w-full md:flex md:pl-[50px]
+                    pl-[50px]">
+                     <button onclick="sendMail()"  type="button" class="px-4 py-2 mt-10 mr-3 text-sm font-medium text-center bg-white rounded-lg text-blue-950 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 md: dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">Send us a message<span><i class="bi md:ml-1 md:pt-[30px]  bi-arrow-right"></i></span></button>
+                   </div>
+                </div>
+            </div>
+           </form>
+           <div class="block md:hidden">
+            <h1 class="text-[25px] text-center pt-7 pb-7 text-white animate__animated animate__backInUp">Or</h1>
+            
+             <p class="text-center text-white mb-7 animate__animated animate__backInUp"><i class=" bi bi-telephone"></i> +2347081009352</p>
+                
+            <p class="text-center p-[20px] text-white animate__animated animate__backInUp"><i class="mr-1 bi bi-envelope "></i> Diasporatravel.consult@gmail.com</p>
+         
+          </div>
+    </div>
+    
+</div> 
+    <!-- Diaspora123 -->
+    
+    <!-- <div class="flex justify-between pt-14 bg-[rgb(16,13,38)]">
+        <p class="w-1/5 h-2 bg-gray-900 rounded-se-lg"></p>
+    <p class=" w-[77%] h-2 bg-gray-900 rounded-ss-lg"></p>
+    </div> -->
+    
+    <div class="bg-[rgb(16,13,38)] mt-[100px]">
+        <div class="pt-[30px]  md:flex  px-[100px]">
+           <div class="w-full md:ml-1 ml-[58px] md:flex">
+            <img class=" md:w-[150px] w-[70px]" src="./images/logo.png" alt="">
+           </div>
+        
+            <div class="flex ml-[48px] md:m-1">
+                <a href="" class="mr-5 "><i class="bi bi-facebook text-blue-700 md:text-[30px] text-[16px]"></i></a>
+                <a href="https://wa.me/+2347081009352" class="mr-5"><i class="bi bi-instagram text-pink-400 md:text-[30px] text-[16px]"></i></a>
+               <a href="" class="mr-5"> <i class="bi bi-whatsapp text-green-600 md:text-[30px] text-[16px]"></i></a>
+        
+            </div>
+    </div>
+        <p class="text-center text-gray-600  md:pt-[100px]">Copyright <i class="bi bi-c-circle"></i> Diasporas travles 2023</p>
+    </div>
+</div>
+</div>
+
+<iframe class="hidden" width="560" height="315" src="https://www.youtube.com/embed/BF04CVxUFFc?si=FsxKsopnXU4-LxGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe class="hidden" width="560" height="315" src="https://www.youtube.com/embed/BF04CVxUFFc?si=FsxKsopnXU4-LxGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe class="hidden" width="560" height="315" src="https://www.youtube.com/embed/BF04CVxUFFc?si=FsxKsopnXU4-LxGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="hidden" width="560" height="315" src="https://www.youtube.com/embed/BF04CVxUFFc?si=FsxKsopnXU4-LxGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="hidden" width="560" height="315" src="https://www.youtube.com/embed/BF04CVxUFFc?si=FsxKsopnXU4-LxGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="hidden" width="560" height="315" src="https://www.youtube.com/embed/BF04CVxUFFc?si=FsxKsopnXU4-LxGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="./index.js"></script>
+
+
+
+
+    <script>
+        var loader = document.getElementById('preloader');
+
+        window.addEventListener("load", function(){
+            loader.style.display= "none";
+        })
+    </script>
+</body>
+</html>

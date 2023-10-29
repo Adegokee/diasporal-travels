@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    /* background-image: linear-gradient(90deg, #000103 0%, #0a0a23 55%, #000000 100%); */
+    
+    
+ 
+
+    
+}
+body{
+    
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+   
+    margin: 0;
+    padding: 0;
+}
+
+.docu{
+    line-height: 54px;
+}
+.neyo{
+    padding: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 967px){
+    .group{
+        display: none;
+    }
+    .width{
+        margin-left: 400px;
+    }
+}
+
+
+    @media screen and (max-width:820px){
+        .mypic{
+            margin-left: 180px;
+            display: flex;
+            justify-content: center;
+           
+            width: 100%;
+            padding-bottom:100px ;
+        }
+        .group{
+            display: none;
+        }
+        /* .what{
+           left: 300px;
+        } */
+
+        
+        .document{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 5px;
+            margin-bottom: 50px;
+        }
+      
+        .neyo main{
+          
+            margin-left: 4px;
+            
+           
+        }
+        .neyo main .click{
+            margin-top: 100px;
+        }
+        .neyo main .click1{
+            margin-top: 10px;
+        }
+        .handle{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .handle  .handle1{
+            width: 100%;
+        }
+        .handle  .handle2{
+            width: 100%;
+            text-align: center;
+        }
+        .mybanner{
+            background-image: linear-gradient(90deg, #000103 0%, #0a0a23 55%, #000000 100%);
+        
+        
+        width: 100%;
+        height: 479vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    .mycontact{
+        background-image: url('../images/linergra.png');
+        background-size: cover ;
+        background-position: center;
+        border-radius: 30px;
+        padding: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mycontact form{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .mycontact .we{
+        width: 100%;
+        text-align: center;
+    }
+    .mywe{
+        padding: 50px;
+    }
+    .mycontact .para1{
+        display: none;
+    }
+    .mycontact .para12{
+        font-size: 24px;
+    }
+    .mycontact .para2{
+        font-size: 16px;
+    }
+}  
+@media screen and (max-width:412px){
+
+    .neyo{
+        padding: 10px;
+    }
+    .liner{
+        background-image: url('../images/linergra.png');
+        width: 100%;
+        height: 50%;
+        background-position: center;
+        background-size: cover;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 50px;
+    }
+    .mypic img{
+        top: 0;
+        object-fit: cover;
+        /* padding:50px; */
+    }
+    .mypic{
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom:100px ;
+    }
+    .group{
+        display: none;
+    }
+    /* .what{
+       left: 300px;
+    } */
+
+    .document{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 5px;
+        margin-bottom: 50px;
+    }
+  
+    .neyo main{
+      
+        /* margin-left: 8px; */
+        
+       
+    }
+    .neyo main .click{
+        margin-top: 100px;
+    }
+    .neyo main .click1{
+        margin-top: 20px;
+    }
+    .handle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .handle  .handle1{
+        width: 100%;
+    }
+    .handle  .handle2{
+        width: 100%;
+        text-align: center;
+    }
+    .mybanner{
+        background-image: linear-gradient(90deg, #000103 0%, #0a0a23 55%, #000000 100%);
+    
+    
+    width: 100%;
+    height: 479vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.mycontact{
+    background-image: url('../images/linergra.png');
+    background-size: cover ;
+    background-position: center;
+    border-radius: 30px;
+    padding: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mycontact form{
+    width: 100%;
+    margin-top: 50px;
+}
+.mycontact .we{
+    width: 100%;
+    /* text-align: center; */
+}
+
+.mywe{
+    padding: 50px;
+    
+}
+.mycontact .para1{
+    display: none;
+}
+.mycontact .para12{
+    font-size: 24px;
+}
+.mycontact .para2{
+    font-size: 16px;
+}
+}  
+        @media screen and (max-width: 390px){
+            .mybanner{
+                background-image: linear-gradient(90deg, #000103 0%, #0a0a23 55%, #000000 100%);
+            
+            
+            width: 100%;
+            height: 639vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .mycontact{
+            background-image: url('../images/linergra.png');
+            background-size: cover ;
+            background-position: center;
+            border-radius: 30px;
+            padding: 150px;
+            width: 100%;
+           
+
+        }
+            }
+
+.mybanner .div h1{
+    line-height: 60px;
+
+   
+}
+
+.mypic{
+    
+}
+.myimages{
+    background-image: linear-gradient(90deg, #000105 0%, #111132 55%, #030406 100%);
+}
+.mycontact{
+    background-image: url('../images/linergra.png');
+    background-size: cover ;
+    background-position: center;
+    border-radius: 30px;
+    padding: 150px;
+}
+
+.neyo main{
+    background-color: rgb(230,230,230);
+}
+.message{
+   
+    width: 320px;
+}
+.message input {
+    
+    width: 320px;
+    border: none;
+    outline: none;
+}
+.message textarea{
+ 
+    width: 320px;
+    border: none;
+   
+}
+
+.modal1{
+    display: none;
+}
+.modal2{
+    display: none;
+}
+.modal3{
+    display: none;
+    transition: 2s ease-in-out;
+}
+
+#preloader{
+    background: #040204 url(../images/ben-redblock-loading.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    background-size: 10%;
+    position: fixed;
+    z-index: 100;
+}
